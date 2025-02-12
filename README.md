@@ -1,2 +1,3 @@
 # algo-trading-bot
-Trading algorithms incorporating Fibonacci retracement, Exponential Moving Averages (EMA), and momentum indicators.
+This is an algo trading bot for Zerodha-kite users only 
+This trading bot has incorporated Fibonacci retracement, Exponential Moving Averages (EMA), and momentum indicators.
