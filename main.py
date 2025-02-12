@@ -9,3 +9,6 @@ import time
 # Zerodha Kite API credentials
 API_KEY = 'your_api_key'
 ACCESS_TOKEN = 'your_access_token'
+
+kite = KiteConnect(api_key=API_KEY)
+kite.set_access_token(ACCESS_TOKEN)
