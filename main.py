@@ -20,3 +20,13 @@ def fetch_historical_data(symbol, start_date, end_date, timeframe='day'):
     data['date'] = pd.to_datetime(data['date'])
     data.set_index('date', inplace=True)
     return data
+
+# Strategy Logic
+class FibonacciEMAMomentumStrategy(Strategy):
+    params = (
+        ('ema_fast', 20),
+        ('ema_slow', 50),
+        ('rsi_period', 14),
+        ('atr_period', 14),
+        ('risk_per_trade', 0.02),  # Risk 2% per trade
+    )
